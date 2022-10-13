@@ -3,6 +3,7 @@
   --color-primary: #172a46;
   --color-secondary: #9da8c7;
   --color-dark: #08162a;
+  --color-darker: #03080f;
   --color-medium: #749bd1;
   --color-light: #ccd6f6;
   --font-family-primary: 'Roboto Mono', monospace;
@@ -13,6 +14,7 @@
 
 html, body {
   height: 100%;
+  margin: 0;
 }
 
 body {
@@ -676,4 +678,25 @@ p {
 .dotted-underline {
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  background-color: var(--color-darker);
+}
+
+.footer-container {
+  margin: 0 auto;
+  max-width: 45rem;
+}
+
+footer p, footer span{
+  font-size: 11px;
+}
+
+footer p{
+  color: var(--color-medium);
 }
