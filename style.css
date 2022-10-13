@@ -505,7 +505,7 @@ a {
 .history {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-gap: .2em;
+  grid-gap: 1em;
   position: relative;
   margin-bottom: 20px;
 }
@@ -552,7 +552,7 @@ a {
   }
 
   .history__title {
-    font-size: 4.5vw;
+    font-size: 4.2vw;
     font-weight: 600;
     padding: 5px 5px;
     position: sticky;
@@ -562,6 +562,7 @@ a {
     transition: all 0.2s ease-in;
     background-color: var(--color-primary);
     color: var(--color-secondary);
+    margin-bottom: 10px;
   }
 }
 
