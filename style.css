@@ -51,7 +51,7 @@ p {
 #checkBtn2:checked ~ #listing2 {
   display: block;
 }
-.history a {
+.history a, .before-history a, .getting-started-obgyn a {
   background-color: var(--color-secondary);
   color: var(--color-dark);
   text-decoration: none;
