@@ -52,9 +52,10 @@ p {
   display: block;
 }
 .history a, .before-history a, .getting-started-obgyn a {
-  background-color: var(--color-secondary);
+  background-color: var(--color-medium);
   color: var(--color-dark);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-style: dotted;  
   padding: 2px 4px;
 }
 
@@ -266,6 +267,25 @@ p {
           transition-delay: calc(var(--td) * 2 * (5 * 0.25));
   z-index: -5;
 }
+
+.home-navigation {
+  cursor: pointer;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 100;
+  background-color: var(--color-medium);
+  height: 2rem;
+  width: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: var(--color-dark);
+  font-family: var(--font-family-secondary);
+  z-index: 98;
+}
+
 
 .menu {
   position: relative;
