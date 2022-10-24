@@ -693,7 +693,6 @@ p {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-
   text-decoration: none;
   background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0, yellow), to(yellow));
   background-image: linear-gradient(to right, rgba(255, 255, 0, 0.3) 0, rgba(255, 255, 0, 0.3) 100%);
