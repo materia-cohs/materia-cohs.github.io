@@ -51,7 +51,7 @@ p {
 #checkBtn2:checked ~ #listing2 {
   display: block;
 }
-.history a, .before-history a, .getting-started-obgyn a {
+.history a, .before-history a, .basic-page a {
   background-color: var(--color-medium);
   color: var(--color-dark);
   text-decoration: underline;
@@ -59,7 +59,13 @@ p {
   padding: 2px 4px;
 }
 
-
+blockquote {
+  border-left-style: solid;
+  border-left-width: 0.5rem;
+  border-left-color: var();
+  padding: 0.5rem;
+  font-style: italic;
+}
 
 .page-container {
   display: -webkit-box;
@@ -78,7 +84,7 @@ p {
   padding: 1rem;
 }
 
-.page-container a{
+.go-to a{
   background-color: var(--color-medium);
   color: var(--color-dark);
   text-decoration: underline;
