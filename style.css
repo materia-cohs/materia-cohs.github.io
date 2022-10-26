@@ -482,7 +482,7 @@ blockquote {
   font-size: 15px;
 }
 
-.home-pg p, .home-pg p a, .home-pg ul li a{
+.home-pg p, .home-pg p a, .home-pg ul li a, .normal-list li a {
   text-decoration: underline;
   text-decoration-style: dotted;
   color: var(--color-light);
