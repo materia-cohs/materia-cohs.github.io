@@ -489,9 +489,8 @@ blockquote {
 }
 
 .normal-list
-.home-pg ul li, .normal-list li  {
-  font-size: 14px;
-  margin: 8px 0;
+.home-pg ul li  {
+  font-size: 13px;
 }
 
 .normal-list li  {
