@@ -486,10 +486,10 @@ blockquote {
   text-decoration: underline;
   text-decoration-style: dotted;
   color: var(--color-light);
-  margin: 5x;
 }
 
-.home-pg ul li  {
+.normal-list
+.home-pg ul li, .normal-list li  {
   font-size: 13px;
   margin: 8px;
 }
