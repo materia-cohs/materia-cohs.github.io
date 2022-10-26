@@ -51,7 +51,7 @@ p {
 #checkBtn2:checked ~ #listing2 {
   display: block;
 }
-.history a, .before-history a, .basic-page a {
+.history a, .before-history a, .basic-section a {
   background-color: var(--color-medium);
   color: var(--color-dark);
   text-decoration: underline;
@@ -490,6 +490,11 @@ blockquote {
 
 .normal-list
 .home-pg ul li, .normal-list li  {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.normal-list li  {
   margin: 8px 0;
 }
 
@@ -806,4 +811,31 @@ footer p{
 
 .download-button:hover .download-primary {
   margin-top: -2em;
+}
+
+/* show/hide div */
+.trigger input[type="checkbox"] {
+  display: none;
+}
+
+.trigger input[type="checkbox"] + .msg {
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  -webkit-transition: height 1s 0ms, opacity 1s 0ms, background 1s;
+  transition: height 1s 0ms, opacity 1s 0ms, background 1s;
+}
+
+.trigger input[type="checkbox"]:checked + .msg {
+  height: auto;
+  width: auto;
+  opacity: 1;
+  -webkit-transition: height 2s 0ms, opacity 1s 0ms;
+  transition: height 2s 0ms, opacity 1s 0ms;
+}
+
+.trigger input[type="checkbox"]:checked + .msg {
+  color: var(--color-dark);
+  background-color: var(--color-medium);
+  padding: 5px;
 }
