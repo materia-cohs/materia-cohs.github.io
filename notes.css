@@ -47,7 +47,7 @@ html {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 0;
-    padding: 5px;
+    padding: 0;
     position: -webkit-sticky;
     position: sticky;
   }
@@ -55,10 +55,6 @@ html {
   .notes article section header > * {
     font-size: inherit;
   }
-  
-  /* .notes article section > div {
-    padding-left: 0.5em;
-  } */
   
   .notes article section > header {
     border-bottom: 2px solid var(--color-light);
@@ -74,7 +70,7 @@ html {
   .notes article section section > header {
     border-bottom: 1px solid var(--color-light);
     font-size: 1.5rem;
-    top: 3.5rem;
+    top: 3rem;
     z-index: 5;
   }
   
@@ -84,8 +80,8 @@ html {
   
   .notes article section section section > header {
     border-bottom: 1px dotted var(--color-light);
-    font-size: 1.25rem;
-    top: 6.5rem;
+    font-size: 1.1rem;
+    top: 6rem;
     z-index: 4;
   }
 
@@ -146,3 +142,8 @@ figcaption {
 .tips-card ul {
   list-style-type: '🚥'; 
 }
+
+.drugs-list {
+  list-style-type: '💊'; 
+}
+
