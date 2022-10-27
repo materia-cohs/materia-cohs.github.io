@@ -1,0 +1,148 @@
+:root {
+  --color-primary: #172a46;
+  --color-secondary: #9da8c7;
+  --color-dark: #08162a;
+  --color-darker: #03080f;
+  --color-medium: #749bd1;
+  --color-light: #ccd6f6;
+  --color-yellow: #faa356;
+  --color-red: #fa7970;
+  --color-green: #7ce38b;
+  --font-family-primary: 'Roboto Mono', monospace;
+  --font-family-secondary: 'Rubik Mono One', sans-serif;
+  --td: 150ms;
+  --te: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    scroll-behavior: inherit;
+  }
+  
+  
+  .notes article .title {
+    font-size: 3rem;
+  }
+  
+  .notes article section {
+    background-color: inherit;
+  }
+  
+  .notes article section > * {
+    background-color: var(--color-dark);
+  }
+  
+  .notes article section header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 3rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  
+  .notes article section header > * {
+    font-size: inherit;
+  }
+  
+  /* .notes article section > div {
+    padding-left: 0.5em;
+  } */
+  
+  .notes article section > header {
+    border-bottom: 2px solid var(--color-light);
+    font-size: 2rem;
+    top: 0rem;
+    z-index: 6;
+  }
+  
+  .notes article section section:target {
+    scroll-margin-top: 3rem;
+  }
+  
+  .notes article section section > header {
+    border-bottom: 1px solid var(--color-light);
+    font-size: 1.5rem;
+    top: 3rem;
+    z-index: 5;
+  }
+  
+  .notes article section section section:target {
+    scroll-margin-top: 6rem;
+  }
+  
+  .notes article section section section > header {
+    border-bottom: 1px dotted var(--color-light);
+    font-size: 1.25rem;
+    top: 6rem;
+    z-index: 4;
+  }
+
+  #top {
+    background-color: var(--color-dark);
+    margin: 0;
+    padding: 0;
+  }
+
+  .notes h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .notes header a{
+    color: var(--color-light);
+    text-decoration: none;
+  }
+
+  .outline ol li {
+    margin: 5px 0;
+  }
+
+  .outline ol li a{
+    color: var(--color-dark);
+  }
+
+figcaption {
+  font-size: .8rem;
+}
+
+.tips-card {
+  border: 1px solid var(--color-light);
+  padding: .5rem;
+}
+
+.tips-card-subtitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.tips-card-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 19px;
+  font-weight: 600;
+}
+.tips-card-content {
+  margin: 0;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.tips-card ul {
+  list-style-type: '🟡';
+}
