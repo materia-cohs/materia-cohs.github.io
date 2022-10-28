@@ -714,6 +714,8 @@ blockquote {
 .topics ul {
   counter-reset: count;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .topics ul li {
   position: relative;
