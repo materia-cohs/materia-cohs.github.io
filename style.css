@@ -62,6 +62,14 @@ p {
   padding: 2px 4px;
 }
 
+.special-link a{
+  background-color: var(--color-medium);
+  color: var(--color-dark);
+  text-decoration: underline;
+  text-decoration-style: dotted;  
+  padding: 2px 4px;
+}
+
 blockquote {
   border-left-style: solid;
   border-left-width: 0.5rem;
@@ -854,4 +862,10 @@ footer p{
   color: var(--color-dark);
   background-color: var(--color-medium);
   padding: 5px;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
 }
