@@ -855,6 +855,7 @@ footer p{
 .trigger input[type="checkbox"]:checked + .msg {
   height: auto;
   width: auto;
+  margin-top: 7px;
   opacity: 1;
   -webkit-transition: height 2s 0ms, opacity 1s 0ms;
   transition: height 2s 0ms, opacity 1s 0ms;
