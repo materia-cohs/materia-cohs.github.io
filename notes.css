@@ -115,7 +115,7 @@ figcaption {
 
 .tips-card {
   border: 1px solid var(--color-light);
-  padding: .5rem;
+  padding: .5rem 1rem;
 }
 
 .tips-card-subtitle {
@@ -141,6 +141,10 @@ figcaption {
 
 .tips-card ul {
   list-style-type: '🚥'; 
+}
+
+.tips-card ul li{
+  padding-left: 4px;
 }
 
 .drugs-list {
