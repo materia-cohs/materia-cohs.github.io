@@ -536,10 +536,14 @@ blockquote {
 }
 
 
-.home-pg .focus-areas  {
+.home-pg .focus-areas, .contribute .focus-areas  {
  display: flex;
  align-items: baseline;
 }
+
+.contribute p {
+  padding-left: 2rem;
+ }
 
 .home-pg div {
   margin: 0;
