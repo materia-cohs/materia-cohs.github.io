@@ -191,3 +191,7 @@ figcaption {
   font-size: 0.8rem;
 }
 
+.contact a{
+  text-decoration: none;
+}
+
