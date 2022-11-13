@@ -50,7 +50,7 @@ ul li::before {
   width: 1em;
   margin-left: -1em;
 } */
-
+💧
 
 #checkBtn1, #checkBtn2{
   display: none;
@@ -519,6 +519,26 @@ blockquote {
   text-decoration-style: dotted;
   color: var(--color-light);
 }
+
+.skills-list li {
+  border-bottom: 1px solid var(--color-light);
+  margin: .5rem;
+  padding: .7rem 0;
+}
+
+.skills-list ul {
+  list-style-type: none;
+}
+
+.skills-list li::before {
+  content: "\2022";
+  color: var(--color-yellow);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
 
 
 .home-pg ul li  {
