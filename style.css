@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One|Roboto+Mono:400,700&display=swap");
 :root {
-  --color-primary: #18181A;
-  --color-secondary: #75757C;
-  --color-dark: #364C62;
-  --color-light: #F5F5F5;
+  --color-primary: #172a46;
+  --color-secondary: #9da8c7;
+  --color-dark: #08162a;
+  --color-darker: #03080f;
+  --color-medium: #749bd1;
+  --color-light: #ccd6f6;
+  --color-yellow: #faa356;
+  --color-red: #fa7970;
+  --color-green: #7ce38b;
+  --color-ash: #89929b;
   --font-family-primary: 'Roboto Mono', monospace;
   --font-family-secondary: 'Rubik Mono One', sans-serif;
   --td: 150ms;
