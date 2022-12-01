@@ -919,7 +919,7 @@ img {
   display: inline-flex;
   padding: .5rem;
   /* border-radius: .25rem; */
-  z-index: 99;
+  z-index: 999;
   opacity: .8;
   transition: .4s;
   text-decoration: none;
