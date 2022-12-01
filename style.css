@@ -897,3 +897,46 @@ img {
   width: 100%;
   height: auto;
 }
+
+
+/*------------- SCROLL BAR ----------*/
+::-webkit-scrollbar{
+  width: .6rem;
+  background: var(--color-darker);
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--color-green);
+  border-radius: .5rem;
+}
+
+/*-----------  SCROLL UP -----------*/
+.scrollup{
+  position: fixed;
+  background-color: var(--color-medium);
+  right: 1rem;
+  bottom: -30%;
+  display: inline-flex;
+  padding: .5rem;
+  /* border-radius: .25rem; */
+  z-index: var(--z-tooltip);
+  opacity: .8;
+  transition: .4s;
+  text-decoration: none;
+}
+
+.scrollup__icon{
+  font-size: 1rem;
+  color: var(--color-dark);
+  font-weight: 900;
+}
+
+.scrollup:hover{
+  background-color: var(--color-light);
+  opacity: 1;
+}
+
+/* Show Scroll Up*/
+.show-scroll{
+  bottom: 5rem;
+}
