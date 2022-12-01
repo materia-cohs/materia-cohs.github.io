@@ -24,7 +24,7 @@
 
 .wrapper__emoji::after {
   content: '';
-  font-size: 200px;
+  font-size: 3rem;
   animation: 20s infinite reverse change-emoji-icon steps(20);
 }
 
