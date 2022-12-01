@@ -920,7 +920,7 @@ img {
   padding: .5rem;
   /* border-radius: .25rem; */
   z-index: 9999;
-  opacity: .8;
+  opacity: 1;
   transition: .4s;
   text-decoration: none;
 }
@@ -931,10 +931,10 @@ img {
   font-weight: 900;
 }
 
-.scrollup:hover{
+/* .scrollup:hover{
   background-color: var(--color-light);
   opacity: 1;
-}
+} */
 
 /* Show Scroll Up*/
 .show-scroll{
