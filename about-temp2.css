@@ -10,11 +10,11 @@
   place-items: center;
   place-content: center;
   min-height: 100vh;
-  padding: 20px;
+  padding: 50px;
 }
 
 .wrapper__emoji {
-  min-height: 230px;
+  min-height: 100px;
 }
 
 .wrapper__emoji:hover::after {
@@ -28,10 +28,6 @@
   animation: 20s infinite reverse change-emoji-icon steps(20);
 }
 
-.wrapper__title {
-  margin-bottom: 0;
-  font-size: 30px;
-}
 
 @-webkit-keyframes change-emoji-icon {
   5% {
@@ -47,114 +43,114 @@
     content: '🙊';
   }
   25% {
-    content: '🐒';
+    content: '🐵';
   }
   30% {
-    content: '🤣';
+    content: '🙈';
   }
   35% {
-    content: '😂';
+    content: '🙉';
   }
   40% {
-    content: '😄';
+    content: '🙊';
   }
   45% {
-    content: '😅';
+    content: '🐒';
   }
   50% {
-    content: '🙂';
+    content: '🐵';
   }
   55% {
-    content: '😐';
+    content: '🙈';
   }
   60% {
-    content: '🙄';
+    content: '🙉';
   }
   65% {
-    content: '😔';
+    content: '🙊';
   }
   70% {
-    content: '🙁';
+    content: '🐒';
   }
   75% {
-    content: '😣';
+    content: '🐵';
   }
   80% {
-    content: '🥱';
+    content: '🙈';
   }
   85% {
-    content: '😴';
+    content: '🙉';
   }
   90% {
-    content: '😥';
+    content: '🙊';
   }
   95% {
-    content: '😨';
+    content: '🐒';
   }
   100% {
-    content: '🥶';
+    content: '🙈';
   }
 }
 
 @keyframes change-emoji-icon {
-    5% {
-        content: '🐵';
-      }
-      10% {
-        content: '🙈';
-      }
-      15% {
-        content: '🙉';
-      }
-      20% {
-        content: '🙊';
-      }
-      25% {
-        content: '🐒';
-      }
-      30% {
-        content: '🤣';
-      }
-      35% {
-        content: '😂';
-      }
-      40% {
-        content: '😄';
-      }
-      45% {
-        content: '😅';
-      }
-      50% {
-        content: '🙂';
-      }
-      55% {
-        content: '😐';
-      }
-      60% {
-        content: '🙄';
-      }
-      65% {
-        content: '😔';
-      }
-      70% {
-        content: '🙁';
-      }
-      75% {
-        content: '😣';
-      }
-      80% {
-        content: '🥱';
-      }
-      85% {
-        content: '😴';
-      }
-      90% {
-        content: '😥';
-      }
-      95% {
-        content: '😨';
-      }
-      100% {
-        content: '🥶';
-      }
+  5% {
+    content: '🐵';
+  }
+  10% {
+    content: '🙈';
+  }
+  15% {
+    content: '🙉';
+  }
+  20% {
+    content: '🙊';
+  }
+  25% {
+    content: '🐵';
+  }
+  30% {
+    content: '🙈';
+  }
+  35% {
+    content: '🙉';
+  }
+  40% {
+    content: '🙊';
+  }
+  45% {
+    content: '🐒';
+  }
+  50% {
+    content: '🐵';
+  }
+  55% {
+    content: '🙈';
+  }
+  60% {
+    content: '🙉';
+  }
+  65% {
+    content: '🙊';
+  }
+  70% {
+    content: '🐒';
+  }
+  75% {
+    content: '🐵';
+  }
+  80% {
+    content: '🙈';
+  }
+  85% {
+    content: '🙉';
+  }
+  90% {
+    content: '🙊';
+  }
+  95% {
+    content: '🐒';
+  }
+  100% {
+    content: '🙈';
+  }
 }
