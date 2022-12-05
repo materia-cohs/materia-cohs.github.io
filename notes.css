@@ -17,7 +17,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 0.9rem;
+    font-size: 0.94rem;
   }
   
   * {
@@ -60,7 +60,7 @@ html {
   
   .notes article section > header {
     border-bottom: 2px solid var(--color-light);
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     top: 0rem;
     z-index: 6;
     line-height: 1;
@@ -73,7 +73,7 @@ html {
   
   .notes article section section > header {
     border-bottom: 1px solid var(--color-light);
-    font-size: 1rem;
+    font-size: 1.1rem;
     top: 3rem;
     z-index: 5;
     line-height: 1;
