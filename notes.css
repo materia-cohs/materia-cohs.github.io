@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --color-primary: #172a46;
   --color-secondary: #9da8c7;
   --color-dark: #08162a;
@@ -10,6 +10,23 @@
   --color-green: #7ce38b;
   --color-ash: #89929b;
   --font-family-primary: 'Roboto Mono', monospace;
+  --font-family-secondary: 'Rubik Mono One', sans-serif;
+  --td: 150ms;
+  --te: cubic-bezier(0.215, 0.61, 0.355, 1);
+} */
+
+:root {
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-dark: #fff;
+  --color-darker: #001028;
+  --color-medium: #001028;
+  --color-light: #001028;
+  /* --color-yellow: #faa356; */
+  --color-red: #7e3b36;
+  --color-green: #1e6cc5;
+  --color-ash: #89929b;
+  --font-family-primary: 'Poppins', sans-serif;
   --font-family-secondary: 'Rubik Mono One', sans-serif;
   --td: 150ms;
   --te: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -196,4 +213,13 @@ figcaption {
 .contact a{
   text-decoration: none;
 }
+
+.msg {
+  font-style: normal;
+}
+
+.msg a{
+  font-style: normal;
+}
+
 

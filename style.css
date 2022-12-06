@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One|Roboto+Mono:400,700&display=swap");
-:root {
+/* :root {
   --color-primary: #172a46;
   --color-secondary: #9da8c7;
   --color-dark: #08162a;
@@ -14,8 +14,25 @@
   --font-family-secondary: 'Rubik Mono One', sans-serif;
   --td: 150ms;
   --te: cubic-bezier(0.215, 0.61, 0.355, 1);
-}
+} */
 
+
+:root {
+  --color-primary: #fff;
+  --color-secondary: #fff;
+  --color-dark: #fff;
+  --color-darker: #001028;
+  --color-medium: #001028;
+  --color-light: #001028;
+  /* --color-yellow: #faa356; */
+  --color-red: #7e3b36;
+  --color-green: #1e6cc5;
+  --color-ash: #89929b;
+  --font-family-primary: 'Poppins', sans-serif;
+  --font-family-secondary: 'Rubik Mono One', sans-serif;
+  --td: 150ms;
+  --te: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
 html, body {
   height: 100%;
   margin: 0;
@@ -771,7 +788,7 @@ blockquote {
   -o-transform: translate(0,-50%);
   transform: translate(0,-50%);
   left: 0;
-  font-size: 32px;
+  font-size: 1.5rem;
 }
 .topics ul li span {
   display: block;
@@ -821,7 +838,7 @@ footer p, footer span{
 }
 
 footer p{
-  color: var(--color-medium);
+  color: var(--color-secondary);
 }
 
 /* downloads */
@@ -868,6 +885,7 @@ footer p{
 
 .trigger {
   color: var(--color-green);
+  font-style: italic;
 }
 
 .trigger input[type="checkbox"] + .msg {
