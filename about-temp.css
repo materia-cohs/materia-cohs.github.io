@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One|Roboto+Mono:400,700&display=swap");
-:root {
+/* :root {
   --color-primary: #172a46;
   --color-secondary: #9da8c7;
   --color-dark: #08162a;
@@ -13,7 +13,7 @@
   --font-family-secondary: 'Rubik Mono One', sans-serif;
   --td: 150ms;
   --te: cubic-bezier(0.215, 0.61, 0.355, 1);
-}
+} */
 
 body {
     background-color: var(--color-dark);
