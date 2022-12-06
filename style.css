@@ -593,7 +593,7 @@ blockquote {
  .home-pg .focus-areas {
   /* border: 2px solid var(--color-darker); */
   padding: .5rem .5rem;
-  margin: 1rem;
+  margin: 1rem 0;
   background-color: #001028;
  }
 
