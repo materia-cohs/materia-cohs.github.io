@@ -581,6 +581,11 @@ blockquote {
  align-items: center;
 }
 
+.focus-areas-link  {
+  color: var(--color-dark);
+  text-decoration: none;
+ }
+
 .contribute p {
   padding-left: 2rem;
  }
@@ -603,6 +608,7 @@ blockquote {
 
  .focus-areas p {
   margin: 0;
+  color: var(--color-primary);
  }
 
  
@@ -973,4 +979,13 @@ img {
 
 iframe {
   background-color: var(--color-medium);
+}
+
+
+
+
+@media (min-width: 900px) {
+  .page-container {
+    box-shadow: -60px 0px 100px -90px var(--color-darker), 60px 0px 100px -90px var(--color-darker);
+  }
 }
