@@ -539,8 +539,8 @@ blockquote {
 }
 
 .home-pg p, .home-pg p a, .home-pg ul li a, .normal-list li a {
-  text-decoration: underline;
-  text-decoration-style: dotted;
+  /* text-decoration: underline;
+  text-decoration-style: dotted; */
   color: var(--color-light);
 }
 
@@ -578,7 +578,7 @@ blockquote {
 
 .home-pg .focus-areas, .contribute .focus-areas  {
  display: flex;
- align-items: baseline;
+ align-items: center;
 }
 
 .contribute p {
@@ -590,14 +590,26 @@ blockquote {
   padding: 0;
  }
 
+ .home-pg .focus-areas {
+  /* border: 2px solid var(--color-darker); */
+  padding: .5rem .5rem;
+  margin: 1rem;
+  background-color: #001028;
+ }
+
 .focus-areas div {
   margin: 0 10px 0 0;
  }
 
+ .focus-areas p {
+  margin: 0;
+ }
+
+ 
+
 .home-pg p a{
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  color: var(--color-light);
+  text-decoration: none;
+  color: var(--color-dark);
 }
 
 @-webkit-keyframes blink {
