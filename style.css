@@ -24,7 +24,7 @@
   --color-darker: #001028;
   --color-medium: #001028;
   --color-light: #001028;
-  /* --color-yellow: #faa356;
+  --color-yellow: #faa356;
   --color-red: #7e3b36;
   --color-green: #1e6cc5;
   --color-ash: #89929b;
@@ -43,7 +43,7 @@ body {
   color: var(--color-light);
   font-family: var(--font-family-primary);
   overflow-x: hidden;
-  /* position: relative; */
+   position: relative;
   background-color: var(--color-dark);
 }
 
@@ -57,7 +57,7 @@ p {
   line-height: 1.4;
 }
 
-/* ul {
+ul {
   list-style: none;
 }
 
@@ -68,7 +68,7 @@ ul li::before {
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
-} */
+} 
 
 #checkBtn1, #checkBtn2{
   display: none;
@@ -544,8 +544,8 @@ blockquote {
 }
 
 .home-pg p, .home-pg p a, .home-pg ul li a, .normal-list li a {
-  /* text-decoration: underline;
-  text-decoration-style: dotted; */
+  text-decoration: underline;
+  text-decoration-style: dotted; 
   color: var(--color-light);
 }
 
@@ -601,7 +601,7 @@ blockquote {
  }
 
  .home-pg .focus-areas {
-  /* border: 2px solid var(--color-darker); */
+  border: 2px solid var(--color-darker); 
   padding: .5rem .5rem;
   margin: 1rem 0;
   background-color: #001028;
@@ -634,9 +634,7 @@ blockquote {
     opacity: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
 
-/* block-$ */
 .block-effect {
   font-size: calc(8px + 4.5vw);
   z-index: -1;
