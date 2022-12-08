@@ -24,7 +24,7 @@
   --color-darker: #001028;
   --color-medium: #001028;
   --color-light: #001028;
-  --color-yellow: #faa356;
+  /* --color-yellow: #faa356; */
   --color-red: #7e3b36;
   --color-green: #1e6cc5;
   --color-ash: #89929b;
@@ -808,8 +808,8 @@ blockquote {
   -ms-transform: translate(0,-50%);
   -o-transform: translate(0,-50%);
   transform: translate(0,-50%);
-  left: 0;
-  font-size: 1.5rem;
+  left: 30px;
+  font-size: 1.3rem;
 }
 .topics ul li span {
   display: block;
