@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One|Roboto+Mono:400,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One|Roboto+Mono:400,700&display=swap");
 /* :root {
   --color-primary: #172a46;
   --color-secondary: #9da8c7;
@@ -36,6 +36,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -514,19 +515,23 @@ blockquote {
 
 .special-text{
   color: var(--color-yellow);
+  font-weight: 800;
 }
 
 .special-text-2{
   color: var(--color-green);
+  font-weight: 800;
 }
 
 .special-text-3{
   color: var(--color-red);
+  font-weight: 800;
 }
 
 .special-text-4{
   color: var(--color-ash);
   text-transform: uppercase;
+  font-weight: 800;
 }
 
 .special-text-4b{
@@ -989,3 +994,16 @@ iframe {
     box-shadow: -60px 0px 100px -90px var(--color-darker), 60px 0px 100px -90px var(--color-darker);
   }
 }
+
+
+.page-header {
+  background-image: url(./figures/lectures-b.png);
+  background-size: cover;
+  background-position: center;
+  color: var(--color-primary);
+  padding: 1rem 2rem;
+}
+
+.page-header h1 {
+  margin: 0;
+} 
