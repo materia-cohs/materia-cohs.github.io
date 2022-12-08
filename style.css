@@ -57,7 +57,7 @@ p {
   line-height: 1.4;
 }
 
-ul {
+/* ul {
   list-style: none;
 }
 
@@ -68,7 +68,7 @@ ul li::before {
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
-} 
+}  */
 
 #checkBtn1, #checkBtn2{
   display: none;
@@ -544,8 +544,8 @@ blockquote {
 }
 
 .home-pg p, .home-pg p a, .home-pg ul li a, .normal-list li a {
-  text-decoration: underline;
-  text-decoration-style: dotted; 
+  /* text-decoration: underline; */
+  /* text-decoration-style: dotted;  */
   color: var(--color-light);
 }
 
@@ -808,7 +808,7 @@ blockquote {
   -ms-transform: translate(0,-50%);
   -o-transform: translate(0,-50%);
   transform: translate(0,-50%);
-  left: 30px;
+  left: 0;
   font-size: 1.3rem;
 }
 .topics ul li span {
