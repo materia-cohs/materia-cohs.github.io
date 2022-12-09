@@ -775,7 +775,7 @@ blockquote {
 .topics ul li {
   position: relative;
   margin-top: 0;
-  padding: 16px 0 16px 40px;
+  padding: 16px 0 16px 25px;
   border-top: 1px solid #ccc;
 }
 
@@ -976,19 +976,19 @@ iframe {
 
 
 
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   .page-container {
     box-shadow: -60px 0px 100px -90px var(--color-darker), 60px 0px 100px -90px var(--color-darker);
   }
-}
+} */
 
 
-.page-header {
+/* .page-header {
   background-image: url(./figures/lectures-b.png);
   background-size: cover;
   background-position: center;
   color: var(--color-primary);
-  padding: 1rem 2rem;
+  padding: 4rem 2rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 0 0 40px rgba(0, 0, 0, .1) inset;
   box-shadow: 0 0px 15px rgba(0, 0, 0, .8);
 }
@@ -1000,4 +1000,4 @@ iframe {
 
 .page-header h1 {
   margin: 0;
-} 
+}  */
