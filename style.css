@@ -111,9 +111,18 @@ blockquote {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-  max-width: 45rem;
-  padding: 1rem;
+  max-width: 60rem;
+  padding: 1.5rem;
 }
+
+.topics-container {
+
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 1.5rem;
+}
+
+
 
 .go-to a{
   background-color: var(--color-medium);
@@ -799,6 +808,7 @@ blockquote {
   transform: translate(0,-50%);
   left: 0;
   font-size: 1.3rem;
+  font-weight: 600;
 }
 .topics ul li span {
   display: block;
@@ -840,7 +850,7 @@ footer {
 
 .footer-container {
   margin: 0 auto;
-  max-width: 45rem;
+  max-width: 60rem;
 }
 
 footer p, footer span{
@@ -976,11 +986,11 @@ iframe {
 
 
 
-/* @media (min-width: 900px) {
+@media (min-width: 1040px) {
   .page-container {
-    box-shadow: -60px 0px 100px -90px var(--color-darker), 60px 0px 100px -90px var(--color-darker);
+    box-shadow: -40px 0px 80px -80px var(--color-darker), 40px 0px 80px -80px var(--color-darker);
   }
-} */
+}
 
 
 /* .page-header {
@@ -994,7 +1004,7 @@ iframe {
 }
 
 .page-heading {
-  max-width: 45rem;
+  max-width: 60rem;
   margin: auto;
 }
 
