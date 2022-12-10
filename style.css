@@ -993,14 +993,15 @@ iframe {
 }
 
 
-/* .page-header {
-  background-image: url(./figures/lectures-b.png);
-  background-size: cover;
-  background-position: center;
+.page-header {
+  /* background-image: url(./figures/lectures-b.png); */
+  /* background-size: cover; */
+  /* background-position: center; */
   color: var(--color-primary);
-  padding: 4rem 2rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 0 0 40px rgba(0, 0, 0, .1) inset;
-  box-shadow: 0 0px 15px rgba(0, 0, 0, .8);
+  padding: 2rem;
+  background-color: var(--color-darker);
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 0 0 40px rgba(0, 0, 0, .1) inset; */
+  /* box-shadow: 0 0px 15px rgba(0, 0, 0, .8); */
 }
 
 .page-heading {
@@ -1009,5 +1010,5 @@ iframe {
 }
 
 .page-header h1 {
-  margin: 0;
-}  */
+  margin: 0.5rem;
+} 
