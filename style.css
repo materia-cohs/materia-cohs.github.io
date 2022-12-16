@@ -990,7 +990,10 @@ iframe {
 @media (min-width: 1040px) {
   .page-container {
     box-shadow: -40px 0px 80px -80px var(--color-darker), 40px 0px 80px -80px var(--color-darker);
+    padding: 3rem;
   }
+
+ 
 }
 
 
