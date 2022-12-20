@@ -908,6 +908,7 @@ footer p{
 .trigger {
   color: var(--color-green);
   font-weight: bold;
+  border-bottom: 2px solid var(--color-green);
 }
 
 .trigger input[type="checkbox"] + .msg {
